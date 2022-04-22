@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <title>Mosaique Fm (Page d'acceuil)</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/74298a9da7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <article class="row align-items-center">
+        <div class="col-6 col-lg-1">
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+
+            <div class="overlay-content">
+              <a href="">Accueil</a>
+              <a href="">La radio</a>
+              <a href="">Actu</a>
+              <a href="">Sport</a>
+              <a href="">Musique</a>
+              <a href="">Podcasts</a>
+              <a href="">Galerie</a>
+              <a href="">Web Radios</a>
+            </div>
+          </div>
+
+          <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+        </div>
+        <div class="col-6 col-lg-2">
+          <img src="img/Mosaique_fm_logo.png" alt="" />
+        </div>
+        <div class="col-6 col-md-3 col-lg-1 offset-lg-5">
+          <a href="">
+            <i class="fas fa-sun"></i>
+            <p>horoscope</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-3 col-lg-1">
+          <a href="">
+            <i class="fas fa-cloud-sun"></i>
+            <p>meteo</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-3 col-lg-1">
+          <a href="">
+            <i class="fab fa-youtube"></i>
+            <p>video</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-3 col-lg-1">
+          <a href="">
+            <i class="fas fa-globe"></i>
+            <p>langue</p>
+          </a>
+        </div>
+      </article>
+      <article class="container-fluid">
+        <div class="slider">
+          <img
+            class="active img"
+            src="img/applications-morphing_975x500.jpeg"
+            style="width: 100%"
+          />
+          <img class="img" src="img/téléchargement.jpeg" style="width: 100%" />
+          <img class="img" src="img/unnamed.jpeg" style="width: 100%" />
+        </div>
+        <div class="cont-btn">
+          <div class="btn-nav left">←</div>
+          <div class="btn-nav right">→</div>
+        </div>
+      </article>
+      <article id="promo-notifications">
+        <ul>
+          <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+          <li>Quia aliasaccusantium aut molestias iusto fugiat nemo quam</li>
+        </ul>
+      </article>
+    </header>
+    <main>
+      <section class="mt-3">
+        <div class="row">
+          <article class="col-lg-2 col-xl-2">
+            <div class="row">
+              <div class="col-lg-12">
+                <h4>DERNIERE ACTU</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam rem amet tempora sit, natus fugit necessitatibus
+                  voluptatem ipsa similique! Quod veritatis iusto nulla iure
+                  similique, exercitationem nisi possimus laborum recusandae.
+                  Voluptatibus impedit, excepturi odio illo quas natus minus
+                  quidem tempora vero velit vitae quam nobis laudantium
+                  necessitatibus recusandae sequi inventore optio voluptatum
+                  porro aut ut? Consectetur autem cupiditate nisi facilis.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-8 col-xl-8">
+            <div class="row">
+              <div class="col-lg-8 col-xl-6">
+                <h4>A LA UNE</h4>
+                <img src="img/romdhane_awards_2022_1650472565.jpeg" alt="" />
+                <h5>NATIONAL</h5>
+                <h4>Le montant de la Zakat fixé a 1,980 dinars</h4>
+              </div>
+              <div class="col-lg-4 col-xl-6">
+                <h4>ACTU SPORTIVES</h4>
+                <div class="row mt-3">
+                  <div class="col-8">
+                    <h6>Tournoi de Stuttgart: Ons Jabeur en quarts de ...</h6>
+                    <em class="legende">21/04/2022 17:47</em>
+                  </div>
+                  <div class="col-2">
+                    <div class="row">
+                      <div class="col-6">
+                        <i class="IconesLegende fab fa-facebook-f"></i>
+                      </div>
+                      <div class="col-6">
+                        <i class="IconesLegende fab fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row mt-3">
+                  <div class="col-8">
+                    <h6>Tournoi de Stuttgart: Ons Jabeur en quarts de ...</h6>
+                    <em class="legende">21/04/2022 17:47</em>
+                  </div>
+                  <div class="col-2">
+                    <div class="row">
+                      <div class="col-6">
+                        <i class="IconesLegende fab fa-facebook-f"></i>
+                      </div>
+                      <div class="col-6">
+                        <i class="IconesLegende fab fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row mt-3">
+                  <div class="col-8">
+                    <h6>Tournoi de Stuttgart: Ons Jabeur en quarts de ...</h6>
+                    <em class="legende">21/04/2022 17:47</em>
+                  </div>
+                  <div class="col-2">
+                    <div class="row">
+                      <div class="col-6">
+                        <i class="IconesLegende fab fa-facebook-f"></i>
+                      </div>
+                      <div class="col-6">
+                        <i class="IconesLegende fab fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row mt-3">
+                  <div class="col-8">
+                    <h6>Tournoi de Stuttgart: Ons Jabeur en quarts de ...</h6>
+                    <em class="legende">21/04/2022 17:47</em>
+                  </div>
+                  <div class="col-2">
+                    <div class="row">
+                      <div class="col-6">
+                        <i class="IconesLegende fab fa-facebook-f"></i>
+                      </div>
+                      <div class="col-6">
+                        <i class="IconesLegende fab fa-twitter"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-lg-4 col-xl-4">
+                <img
+                  src="img/mahdia_perturbation_de_la_distribution_de_l_eau_courante_1650557340.jpeg"
+                  alt=""
+                />
+                <h5>NATIONAL</h5>
+                <h6>Saied salue le dévouement des forces de l'ordre</h6>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-4">
+                <img
+                  src="img/la_manouba_non_lieu_pour_quatre_non_jeuneurs_1650556954.jpeg"
+                  alt=""
+                />
+                <h5>REGIONAL</h5>
+                <h6>El Batan : 19 ouvriers blessés dans un accident...</h6>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-4">
+                <img src="img/jaques_perrin_1650560770.jpeg" alt="" />
+                <h5>INTERNAIONAL</h5>
+                <h6>France: Débat Le Pen - Macron: 15,6 millions de ...</h6>
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-2 col-xl-2">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-3 col-lg-6">
+                    <a href="">
+                      <i class="fas fa-play"></i>
+                      <p>videos</p>
+                    </a>
+                  </div>
+                  <div class="col-3 col-lg-6">
+                    <a href="">
+                      <i class="fas fa-podcast"></i>
+                      <p>podcasts</p>
+                    </a>
+                  </div>
+                  <div class="col-3 col-lg-6">
+                    <a href="">
+                      <i class="fas fa-music"></i>
+                      <p>musique</p>
+                    </a>
+                  </div>
+                  <div class="col-3 col-lg-6">
+                    <a href="">
+                      <i class="far fa-images"></i>
+                      <p>photos</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="sondage">
+                  <h4>SONDAGE</h4>
+                  <form action="">
+                    <p>
+                      Le président de la République dissout le Parlement :
+                    </p>
+                    <input type="radio" id="" name="fav_language" value="">
+                    <label for="">Pour</label><br>
+                    <input type="radio" id="" name="fav_language" value="">
+                    <label for="">Contre</label><br>
+                    <input type="radio" id="" name="fav_language" value="">
+                    <label for="">Sans avis</label>
+                  </form>
+                </div>
+              </div>
+              <div class="col-lg-12">(PUBLICITE)</div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="mt-3 mr-5 ml-5">
+        <h2>VIDEOS</h2>
+        <div class="row">
+          <article class="col-lg-8 col-xl-8">
+            <iframe
+              width="100%"
+              height="500"
+              src="https://www.youtube.com/embed/-Z1B6Flq6No"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </article>
+          <article class="col-lg-4 col-xl-4">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-6">
+                <iframe
+                  width="100%"
+                  height="200"
+                  src="https://www.youtube.com/embed/-Z1B6Flq6No"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+                <h6>Raouf Kouka: Voila pourquoi j'ai tout laissé...</h6>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6">
+                <iframe
+                  width="100%"
+                  height="200"
+                  src="https://www.youtube.com/embed/-Z1B6Flq6No"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+                <h6>Raouf Kouka: Voila pourquoi j'ai tout laissé...</h6>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6">
+                <iframe
+                  width="100%"
+                  height="200"
+                  src="https://www.youtube.com/embed/-Z1B6Flq6No"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+                <h6>Raouf Kouka: Voila pourquoi j'ai tout laissé...</h6>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6">
+                <iframe
+                  width="100%"
+                  height="200"
+                  src="https://www.youtube.com/embed/-Z1B6Flq6No"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+                <h6>Raouf Kouka: Voila pourquoi j'ai tout laissé...</h6>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="mt-3">
+        <h2>SPORT</h2>
+        <div class="row">
+          <article class="col-lg-4 col-xl-3">
+            <h5>CLASSEMENT</h5>
+            <div class="row">
+              <div class="col-md-6 col-lg-12">
+                <table class="table table-hover">
+                  <tr>
+                    <th>Groupe A</th>
+                  </tr>
+                  <tr>
+                    <td>01</td>
+                    <td></td>
+                    <td>EST</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td>02</td>
+                    <td></td>
+                    <td>USBG</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td>03</td>
+                    <td></td>
+                    <td>CSS</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td>04</td>
+                    <td></td>
+                    <td>ESTA</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>24</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="col-md-6 col-lg-12">
+                <table class="table table-hover">
+                  <tr>
+                    <th>Groupe B</th>
+                  </tr>
+                  <tr>
+                    <td>01</td>
+                    <td></td>
+                    <td>EST</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td>02</td>
+                    <td></td>
+                    <td>USBG</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td>03</td>
+                    <td></td>
+                    <td>CSS</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td>04</td>
+                    <td></td>
+                    <td>ESTA</td>
+                    <td>13</td>
+                    <td>12</td>
+                    <td>24</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-8 col-xl-7">
+            <div class="row">
+              <div class="col-xl-8 col-lg-6">
+                <img src="img/Ons-Jabeur-Chicago-3.jpeg" alt="" />
+                <h5>SPORT</h5>
+                <h4>Le montant de la Zakat fixé a 1,980 dinars</h4>
+                <p class="text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nostrum quaerat ut omnis adipisci neque asperiores modi aut.
+                  Est ab aspernatur enim molestiae fugit distinctio aut dolorem,
+                  amet corrupti eligendi suscipit?
+                </p>
+              </div>
+              <div class="col-xl-4 col-lg-6">
+                <div class="row">
+                  <div class="col-md-6 col-lg-12">
+                    <img src="img/es_hammam_sousse_1650542856.jpeg" alt="" />
+                    <h6>ES Hammam-Sousse: Khaled Ben Sassi Nouvel...</h6>
+                  </div>
+                  <div class="col-md-6 col-lg-12">
+                    <img src="img/basket_1650540792.jpeg" alt="" />
+                    <h6>Basket: L'entraîneur du Club africain ...</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-12 col-xl-2">
+            <div class="sondage">
+              <h4>Sondage</h4>
+              <form action="">
+                <p>
+                  CAFCL: Vos pronostics pour ES Sétif-Esperance :
+                </p>
+                <input type="radio" id="" name="fav_language" value="">
+                <label for="">Victoire de l'ES Sétif</label><br>
+                <input type="radio" id="" name="fav_language" value="">
+                <label for="">Victoire de l'Esperance</label><br>
+                <input type="radio" id="" name="fav_language" value="">
+                <label for="">Un match nul</label>
+              </form>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="mt-3">
+        <h2>LES PLUS LUS</h2>
+        <article
+          class="row align-items-center justify-content-center LesPlusVus"
+        >
+          <div
+            class="row align-items-center justify-content-center col-xs col-md col-lg"
+          >
+            <strong class="col-2">1</strong>
+            <h6 class="col-10">
+              Tournoi de Stuttgart: Ons Jabeur en huitièmes
+            </h6>
+          </div>
+          <div
+            class="row align-items-center justify-content-center col-xs col-md col-lg"
+          >
+            <strong class="col-2">2</strong>
+            <h6 class="col-10">
+              Tournoi de Stuttgart: Ons Jabeur en huitièmes
+            </h6>
+          </div>
+          <div
+            class="row align-items-center justify-content-center col-xs col-md col-lg"
+          >
+            <strong class="col-2">3</strong>
+            <h6 class="col-10">
+              Tournoi de Stuttgart: Ons Jabeur en huitièmes
+            </h6>
+          </div>
+          <div
+            class="row align-items-center justify-content-center col-xs col-md col-lg"
+          >
+            <strong class="col-2">4</strong>
+            <h6 class="col-10">
+              Tournoi de Stuttgart: Ons Jabeur en huitièmes
+            </h6>
+          </div>
+          <div
+            class="row align-items-center justify-content-center col-xs col-md col-lg"
+          >
+            <strong class="col-2">5</strong>
+            <h6 class="col-10">
+              Tournoi de Stuttgart: Ons Jabeur en huitièmes
+            </h6>
+          </div>
+        </article>
+      </section>
+      <section class="mt-3">
+        <h2>PODCASTS</h2>
+        <div class="container">
+          <article class="row">
+            <div class="col-6 col-md-3 col-lg-3">
+              <iframe
+                width="100%"
+                height="200"
+                src="https://www.youtube.com/embed/rVSDljCVGZo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+              <iframe
+                width="100%"
+                height="200"
+                src="https://www.youtube.com/embed/I5VhJR6HdP4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+              <iframe
+                width="100%"
+                height="200"
+                src="https://www.youtube.com/embed/YY-YT-D8eUc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+              <iframe
+                width="100%"
+                height="200"
+                src="https://www.youtube.com/embed/p_coXD65NVI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="mt-3 mr-5 ml-5">
+        <h2>EN IMAGES</h2>
+        <div class="row">
+          <div class="col-lg-8 col-xl-6">
+            <img src="img/165046521972_album.jpeg" alt="" />
+          </div>
+          <div class="col-lg-4 col-xl-6">
+            <div class="row">
+              <div class="col-md-6 col-lg-6">
+                <img
+                  src="img/xelo_l_equipage_interdit_de_voyage_1650454625.jpeg"
+                  alt=""
+                />
+                <h6 class="mt-2">Photos: Sujet de la photo</h6>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <img src="img/violence_1650456242.jpeg" alt="" />
+                <h6 class="mt-2">Photos: Sujet de la photo</h6>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <img
+                  src="img/mahdia_perturbation_de_la_distribution_de_l_eau_courante_1650557340.jpeg"
+                  alt=""
+                />
+                <h6 class="mt-2">Photos: Sujet de la photo</h6>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <img src="img/violence_1650456242.jpeg" alt="" />
+                <h6 class="mt-2">Photos: Sujet de la photo</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt-3">
+        <h2>MUSIQUE</h2>
+        <div class="row">
+          <article class="col-lg-8 col-xl-9">
+            <div class="row">
+              <div class="col-lg-4">
+                <h5>MUSIQUE</h5>
+                <h4>
+                  Coldplay entame sa tournée devant 40.000 personnes au Costa
+                  Rica
+                </h4>
+                <p class="text-justify">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis inventore expedita tempore sequi iusto aperiam nihil
+                  molestias earum. Distinctio dignissimos aliquid ipsa
+                  voluptatibus facere? Facere odio culpa distinctio totam
+                  debitis!
+                </p>
+              </div>
+              <div class="col-lg-8">
+                <img
+                  src="img/coldplay_entame_sa_tournee_devant_40_000_personnes_au_costa_rica_1647678266.jpeg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="row mt-3 mb-3">
+              <div class="col">
+                <div class="row">
+                  <div class="col-6 col-lg-6 col-md-6">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <img src="img/maitre_gims_1645810101.jpeg" alt="" />
+                      </div>
+                      <div class="col-lg-8">
+                        <h5>MUSIQUE</h5>
+                        <h6>Raouf Kouka: Voila pourquoi j'ai tout laissé...</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-6 col-md-6">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <img src="img/daft_punk_1645602572.jpeg" alt="" />
+                      </div>
+                      <div class="col-lg-8">
+                        <h5>MUSIQUE</h5>
+                        <h6>Raouf Kouka: Voila pourquoi j'ai tout laissé...</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-4 col-xl-3">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-6">
+                <h5>TOP ORIENTAL</h5>
+              </div>
+              <div class="col-lg-6 col-md-6 col-6">
+                <h5>TOP OCCIDENTAL</h5>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="row">
+      <div class="col-md-12 col-lg-10 col-xl-10">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-2">
+            <h4>La radio</h4>
+            <ul class="mt-3">
+              <li>Equipes</li>
+              <li>Emissions</li>
+              <li>Programmes</li>
+              <li>Frequences</li>
+              <li>Live</li>
+              <li>Contact</li>
+              <li>Publicité</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h4>Actu</h4>
+            <ul class="mt-3">
+              <li>National</li>
+              <li>Regional</li>
+              <li>International</li>
+              <li>Politique</li>
+              <li>Economie</li>
+              <li>Culture</li>
+              <li>Mosaique FM</li>
+              <li>Midi Show</li>
+              <li>Faits Divers</li>
+              <li>High Tech</li>
+              <li>Insolite</li>
+              <li>Communiques de presse FM</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h4>Sport</h4>
+            <ul class="mt-3">
+              <li>Actu sport</li>
+              <li>Actu Ligue 1 Pro</li>
+              <li>Resultats</li>
+              <li>Classement</li>
+              <li>Forum Sport</li>
+              <li>Forum Express</li>
+              <li>Galerie</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h4>Musique</h4>
+            <ul class="mt-3">
+              <li>Actu Musique</li>
+              <li>Emissions</li>
+              <li>Top Oriental</li>
+              <li>Top Occidental</li>
+              <li>Dj Residents</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h4>Podcast</h4>
+            <ul class="mt-3">
+              <li>Emissions</li>
+              <li>Rubriques</li>
+              <li>Les infos</li>
+              <li>Sport Express</li>
+              <li>Midi Show</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h4>Galerie</h4>
+            <ul class="mt-3">
+              <li>Photos</li>
+              <li>Videos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-2 col-xl-2">
+        <h4>Application mobile</h4>
+        <div class="row">
+          <div class="col-6">
+            <i class="fab fa-google-play"></i>
+          </div>
+          <div class="col-6">
+            <i class="fab fa-app-store"></i>
+          </div>
+        </div>
+        <h4 class="mt-5">Suivez nous</h4>
+        <div class="row">
+          <div class="col-2">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="col-2">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="col-2">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="col-2">
+            <i class="fab fa-youtube"></i>
+          </div>
+          <div class="col-2">
+            <i class="fas fa-wifi"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
